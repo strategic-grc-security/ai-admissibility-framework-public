@@ -39,3 +39,9 @@ Links:
 
 ## Status
 This repository contains the public overview of the AI Admissibility Framework. A longer paper is in progress.
+
+## License and Use
+
+Copyright © 2026 Strategic GRC & Security LLC. All rights reserved.
+
+This repository is published for review, reference, and discussion. No license is granted for reproduction, redistribution, derivative works, commercial use, or implementation without prior written permission.
