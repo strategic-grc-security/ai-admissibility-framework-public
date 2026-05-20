@@ -31,6 +31,8 @@ Links:
 
 - [AI Admissibility Four Pillars](docs/four-pillars.md)
 
+- [AI Admissibility Test](docs/ai-admissibility-test.md)
+
 - [AI Admissibility Boundary](docs/boundary.md)
 
 - [AI Admissibility Control Architecture](docs/control-architecture.md)
