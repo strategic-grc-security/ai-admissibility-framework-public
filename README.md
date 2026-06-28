@@ -21,7 +21,7 @@ Current AI governance often relies on policies, guardrails, testing, and monitor
 Admissibility introduces an explicit decision boundary: before AI-driven behavior affects a system, the system must determine whether the action is allowed.
 
 ## Relationship to the Control Intent Engine
-The Admissibility Framework is complemented by the Control Intent Engine, which evaluates governance intent against system reality and helps operationalize admissibility conditions in practice.The Control Intent Engine is a complementary mechanism for evaluating whether those governing conditions are present in a real system.
+The Admissibility Framework is complemented by the Control Intent Engine, which evaluates governance intent against system reality and helps operationalize admissibility conditions in practice. The Control Intent Engine is a complementary mechanism for evaluating whether those governing conditions are present in a real system.
 [Control Intent Engine](https://github.com/daphne-apollo/control-intent-engine-public)
 
 ## Repository contents
@@ -40,7 +40,7 @@ Links:
 - [AI Coding Agent Example](docs/ai-coding-agent-example.md)
 
 ## Status
-This repository contains the public overview of the AI Admissibility Framework. A longer paper is in progress.
+This repository contains the public overview of the AI Admissibility Framework. A full working paper is now available in the companion repository: [AI Admissibility Framework Working Paper](https://github.com/strategic-grc-security/ai-admissibility-paper-public)
 
 ## License and Use
 

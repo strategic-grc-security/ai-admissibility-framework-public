@@ -1,11 +1,11 @@
-# The AI Admissibility Framework: Making AI Safe Through System Control
+# The AI Admissibility Framework: Making AI-Enabled Systems Governable
 Most approaches to AI safety focus on improving the model, through training, testing, or guardrails.
 In practice, this is not sufficient.
 
 AI systems do not behave deterministically. They generate outputs based on patterns and context, which means:
-- Correct behavior in one instance does not guarantee correct behavior in the next
-- Testing shows what happened, not what will happen
-- Guardrails influence behavior but do not enforce it
+- Correct behavior in one instance does not guarantee correct behavior in a different context
+- Testing shows how the system behaved under certain conditions, but it cannot prove how it will behave in every future condition
+- Guardrails and model-level controls can reduce risk and influence behavior but they do not, by themselves, enforce whether a consequential action should occur
 
 As a result, AI systems can take actions without reliable control over whether those actions should occur.
 
@@ -31,17 +31,17 @@ These are not edge cases; they are structural issues in how AI systems are built
 ## The Admissibility Framework in Practice
 The AI Admissibility Framework ensures that actions are only allowed when four conditions are met:
 
-Authority - actions are tied to a valid identity and permission
- → prevents actions without clear authorization
+Authority - actions are tied to a valid identity, scoped permissions, and accountable owner
+ → establishes who or what is acting, on whose behalf, under what authority, and who remains accountable
 
-Actions - execution is constrained to defined boundaries
- → prevents unauthorized or uncontrolled changes
+Actions - execution is limited to permitted operations and defined conditions
+ → helps ensure the system does only what it is authorized to do, in the circumstances where that action is allowed
 
-Context - inputs and data sources are governed
- → prevents untrusted information from influencing behavior
+Context - inputs, data sources, and system context are evaluated for trust, relevance, and authority
+ → reduces the risk that untrusted, stale, poisoned, or unauthorized context influences consequential behavior
 
-Evidence - activity is observable and traceable
- → enables visibility and verification of what occurred
+Evidence - decisions and activity are observable, traceable, and tied to the point of control
+ → supports verification of what was evaluated, what decision was made, and why the action was allowed, denied, escalated, or deferred
 
 Admissibility is enforced at an Admissibility Boundary where actions are evaluated before they occur. The same decision that permits or denies execution also produces the authoritative evidence of that decision. Evidence from the Boundary is not reconstructed; it is generated inline as a byproduct of enforcement. 
 
